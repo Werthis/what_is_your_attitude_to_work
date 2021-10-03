@@ -10,6 +10,7 @@ class ReadDataFrame():
 
         self.open_data_file()
         self.read_data_file()
+        
 
     def open_data_file(self):
         self.data_file = open(FILE_PATH)
